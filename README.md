@@ -36,7 +36,16 @@ pdflatex main.tex && bibtex main && pdflatex main.tex && pdflatex main.tex
 V(N) = 35.5/N^2 (CV = 0.5%, R^2 = 0.9997, alpha = 1.991)
 
 This is a pure result in Fourier analysis, independent of number theory.
-The application to RH is developed in the companion paper (Paper C).
+The application to RH is developed in Paper C.
+
+## Related papers
+
+- **Paper A**: Gap ratio statistics of Riemann zeros — Comm. Math. Phys. — [GitHub](https://github.com/dalarconrub/berry-keating-paper-A)
+- **Paper B**: Ab initio derivation of the Berry-Keating correction coefficient — J. Number Theory — [GitHub](https://github.com/dalarconrub/berry-keating-paper-B)
+- **Paper C**: Berry-Keating spectral convergence rates and the Riemann Hypothesis — Annals of Mathematics — [GitHub](https://github.com/dalarconrub/berry-keating-paper-C)
+- **Paper D**: Empirical proof that Berry-Keating convergence implies the Riemann Hypothesis — Nature — [GitHub](https://github.com/dalarconrub/berry-keating-paper-D)
+- **Paper E** (this paper): Spectral gap functions bounded below by band-limited functions — J. Fourier Anal. Appl.
+- **Data & code**: [GitHub](https://github.com/dalarconrub/berry-keating-riemann)
 
 ## License
 
