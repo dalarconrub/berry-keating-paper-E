@@ -1,4 +1,5 @@
 # Spectral gap functions bounded below by band-limited functions: a 2D uniqueness phenomenon
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19268994.svg)](https://doi.org/10.5281/zenodo.19268994)
 
 **Author:** David Alarcon, Universidad Pablo de Olavide, Sevilla, Spain
 
