@@ -2,7 +2,7 @@
 
 **Author:** David Alarcon, Universidad Pablo de Olavide, Sevilla, Spain
 
-**Zenodo DOI:** *pending*
+**Zenodo DOI:** [10.5281/zenodo.19268994](https://doi.org/10.5281/zenodo.19268994)
 
 ## Abstract
 
