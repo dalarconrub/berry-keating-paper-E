@@ -2,7 +2,7 @@
 
 **Author:** David Alarcon, Universidad Pablo de Olavide, Sevilla, Spain
 
-**Venue:** Journal of Fourier Analysis and Applications (Springer)
+**Zenodo DOI:** *pending*
 
 ## Abstract
 
