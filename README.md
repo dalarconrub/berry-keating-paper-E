@@ -17,12 +17,17 @@ Hypothesis are discussed.
 ## Repository structure
 
 ```
-main.tex              Main manuscript (~10 pages)
+main.tex              Main manuscript (6 pages)
 references.bib        Bibliography (10 references)
+cover_letter.tex      Cover letter
 figures/
   fig1_lp_bound       V(N) scaling law (20 points, N=20..128)
 src/
-  (scripts to be added)
+  01_lp_bound.py              Section 3: LP solver, V(N) = 35.5/N^2
+  02_1d_fails.py              Section 4: 1D gives constant bound
+  03_band_decomposition.py    Section 5: A+B+C cooperation, ablation
+  04_fourier_orthogonality.py Section 6: disjoint supports, sinc(n)=0
+  05_relaxation_proof.py      Section 3.2: strict relaxation, V_cont = 0
 ```
 
 ## Compile
@@ -31,21 +36,10 @@ src/
 pdflatex main.tex && bibtex main && pdflatex main.tex && pdflatex main.tex
 ```
 
-## Key result
+## Companion papers
 
-V(N) = 35.5/N^2 (CV = 0.5%, R^2 = 0.9997, alpha = 1.991)
-
-This is a pure result in Fourier analysis, independent of number theory.
-The application to RH is developed in Paper C.
-
-## Related papers
-
-- **Paper A**: Gap ratio statistics of Riemann zeros — Comm. Math. Phys. — [GitHub](https://github.com/dalarconrub/berry-keating-paper-A)
-- **Paper B**: Ab initio derivation of the Berry-Keating correction coefficient — J. Number Theory — [GitHub](https://github.com/dalarconrub/berry-keating-paper-B)
-- **Paper C**: Berry-Keating spectral convergence rates and the Riemann Hypothesis — Annals of Mathematics — [GitHub](https://github.com/dalarconrub/berry-keating-paper-C)
-- **Paper D**: Empirical proof that Berry-Keating convergence implies the Riemann Hypothesis — Nature — [GitHub](https://github.com/dalarconrub/berry-keating-paper-D)
-- **Paper E** (this paper): Spectral gap functions bounded below by band-limited functions — J. Fourier Anal. Appl.
-- **Data & code**: [GitHub](https://github.com/dalarconrub/berry-keating-riemann)
+- **Paper C** — [DOI: 10.5281/zenodo.19267745](https://doi.org/10.5281/zenodo.19267745) — [GitHub](https://github.com/dalarconrub/berry-keating-paper-C)
+- **Data & code** — [GitHub](https://github.com/dalarconrub/berry-keating-riemann)
 
 ## License
 
